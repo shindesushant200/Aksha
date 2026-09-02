@@ -38,12 +38,15 @@ document.getElementById("cakeButton").addEventListener("click", () => {
 });
 document.getElementById("cakeNext").addEventListener("click", () => showScreen("bouquet"));
 
-/* Memories — replace these images/captions with your own */
+/* Memories — replace these images/captions with your own ["assets/images/memory-1.svg", "Happy Birthday 💗"]*/
 const memories = [
-  ["assets/images/memory-1.svg", "Happy Birthday! 💗"],
-  ["assets/images/memory-2.svg", "One of my favorite memories ✨"],
-  ["assets/images/memory-3.svg", "More adventures together 🌸"],
-  ["assets/images/memory-4.svg", "Always a little happier with you 🥰"]
+  
+  ["assets/images/Updated1.jpeg", "Happy Birthday, Aksha 💗"],
+  ["assets/images/Updated22.jpeg", "You look absolutely stunning ✨"],
+["assets/images/Updated33.jpeg", "Forever my favorite person ❤️"],
+["assets/images/Updated4.jpeg", "The prettiest girl in every place 🌹"],
+["assets/images/Updated5.jpeg", "You shine like sunshine ☀️"],
+["assets/images/Updated6.jpeg", "Your smile makes my world brighter 🌸"]
 ];
 let memoryIndex = 0;
 
