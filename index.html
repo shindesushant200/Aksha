@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday, Akshata 💗</title>
+  <meta name="description" content="A little birthday surprise for Akshata.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="app">
+    <!-- 1. Welcome -->
+    <section class="screen active" id="welcome">
+      <div class="sparkle">✦</div>
+      <p class="eyebrow">A tiny surprise, made with love</p>
+      <h1>Happy Birthday,<br><span>Akshata</span> 💗</h1>
+      <p class="subtitle">Today is all about you.</p>
+      <div class="cute-couple">🐰 💕 🐻</div>
+      <button class="primary" data-next="balloons">Open your surprise <span>→</span></button>
+      <button class="ghost" id="skipIntro">I'm ready ✨</button>
+    </section>
+
+    <!-- 2. Balloons -->
+    <section class="screen" id="balloons">
+      <p class="eyebrow">First little challenge</p>
+      <h2>Pop all 4 balloons</h2>
+      <p class="hint">Tap each balloon 💕</p>
+      <div class="balloon-grid">
+        <button class="balloon b1" aria-label="Pop balloon">🎈</button>
+        <button class="balloon b2" aria-label="Pop balloon">🎈</button>
+        <button class="balloon b3" aria-label="Pop balloon">🎈</button>
+        <button class="balloon b4" aria-label="Pop balloon">🎈</button>
+      </div>
+      <p class="progress"><span id="popped">0</span>/4 popped</p>
+      <button class="primary hidden" id="balloonNext">You did it! →</button>
+    </section>
+
+    <!-- 3. Cake -->
+    <section class="screen" id="cake">
+      <p class="eyebrow">Make a wish</p>
+      <h2>Blow the candle, Akshata 🕯️</h2>
+      <p class="hint">Tap the candle to blow it out.</p>
+      <button class="cake" id="cakeButton" aria-label="Blow out candle">
+        <span class="flame" id="flame">🔥</span>
+        <span class="candle">🕯️</span>
+        <span class="cake-art">🍰</span>
+      </button>
+      <p class="wish" id="wish">Make a beautiful wish...</p>
+      <button class="primary hidden" id="cakeNext">Wish made ✨ →</button>
+    </section>
+
+    <!-- 4. Bouquet -->
+    <section class="screen" id="bouquet">
+      <p class="eyebrow">Just for you</p>
+      <h2>Your rose bouquet 🌹</h2>
+      <div class="bouquet-card">
+        <img src="assets/images/bouquet.svg" alt="Illustration of a rose bouquet">
+      </div>
+      <p class="subtitle">Because one rose could never say enough.</p>
+      <button class="primary" data-next="memories">Continue →</button>
+    </section>
+
+    <!-- 5. Memories -->
+    <section class="screen" id="memories">
+      <p class="eyebrow">A few little snapshots</p>
+      <h2>Some Sweet Moments</h2>
+      <p class="hint">Swipe or use the arrows</p>
+      <div class="polaroid-wrap">
+        <button class="nav-arrow left" id="prevMemory" aria-label="Previous memory">‹</button>
+        <article class="polaroid" id="polaroid">
+          <img id="memoryImage" src="assets/images/memory-1.svg" alt="Sweet memory">
+          <p id="memoryCaption">Happy Birthday! 💗</p>
+        </article>
+        <button class="nav-arrow right" id="nextMemory" aria-label="Next memory">›</button>
+      </div>
+      <div class="dots" id="memoryDots"></div>
+      <button class="primary" data-next="letter">There is one more thing →</button>
+    </section>
+
+    <!-- 6. Letter -->
+    <section class="screen" id="letter">
+      <p class="eyebrow">From my heart</p>
+      <h2>A Message From My Heart</h2>
+      <article class="letter-card">
+        <button class="heart-stamp" id="heartStamp" aria-label="Reveal message">♥</button>
+        <div id="letterText" class="letter-text">
+          <p>Dear Akshata,</p>
+          <p>Happy Birthday to someone truly special. 🌸</p>
+          <p>You are sweet, loyal, caring, and I’m so grateful to have you in my life.</p>
+          <p>You bring so much warmth and happiness into my days. Every moment with you is precious.</p>
+          <p>On your special day, I wish you all the happiness, love, and joy that you deserve. May this year bring you countless beautiful moments and wonderful memories.</p>
+          <p>Here’s to celebrating you today and always! 🥂</p>
+          <p>With love and best wishes,<br><strong>Your Special Someone 💕</strong></p>
+        </div>
+      </article>
+      <button class="primary" data-next="final">One last thing… →</button>
+    </section>
+
+    <!-- 7. Final -->
+    <section class="screen" id="final">
+      <div class="final-heart">💗</div>
+      <p class="eyebrow">One Last Thing</p>
+      <h2>For the girl who makes ordinary days feel special.</h2>
+      <img class="final-art" src="assets/images/final-couple.svg" alt="Cute couple illustration">
+      <p class="final-message">Happy Birthday, Akshata.<br><span>I'm really lucky to have you. ❤️</span></p>
+      <button class="primary" id="restart">Replay the surprise ↻</button>
+      <p class="tiny">P.S. Replace the sample memories with your own photos before sharing.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
