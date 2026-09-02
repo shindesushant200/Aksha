@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
+<defs><linearGradient id="g" y1="0" y2="1"><stop stop-color="#ffeef4"/><stop offset="1" stop-color="#ffdce8"/></linearGradient></defs>
+<rect width="800" height="650" rx="40" fill="url(#g)"/>
+<circle cx="400" cy="320" r="205" fill="#fff8fa" opacity=".8"/>
+<text x="400" y="310" text-anchor="middle" font-size="150">🐰💕🐻</text>
+<text x="400" y="440" text-anchor="middle" font-family="Georgia" font-size="38" fill="#8d3154">Made with a whole lot of love</text>
+<text x="400" y="500" text-anchor="middle" font-family="Arial" font-size="22" fill="#a56a7d">Replace this illustration with your favorite couple photo</text>
+</svg>

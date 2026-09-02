@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#fff2f7"/><stop offset="1" stop-color="#ffe3ec"/></linearGradient></defs>
+<rect width="700" height="700" rx="35" fill="url(#bg)"/>
+<g transform="translate(350 315)">
+<path d="M-120 20 L-42 230 L42 230 L120 20Z" fill="#f7eadc"/>
+<path d="M-75 145 L0 245 L75 145" fill="#d9968d"/>
+<path d="M-85 145 Q0 215 85 145" fill="#c96572"/>
+<g fill="#d94b63" stroke="#a72f47" stroke-width="4">
+<circle cx="-100" cy="-20" r="52"/><circle cx="-38" cy="-68" r="55"/><circle cx="28" cy="-78" r="54"/><circle cx="91" cy="-30" r="52"/>
+<circle cx="-45" cy="2" r="48"/><circle cx="45" cy="0" r="50"/>
+</g>
+<g fill="#f7a6b5"><circle cx="-99" cy="-20" r="19"/><circle cx="-38" cy="-68" r="20"/><circle cx="28" cy="-78" r="20"/><circle cx="91" cy="-30" r="19"/></g>
+<g stroke="#5e9b69" stroke-width="10" fill="none"><path d="M-38 -25 Q-30 80 -20 165"/><path d="M28 -25 Q20 90 12 165"/><path d="M91 0 Q55 90 25 160"/></g>
+</g>
+<text x="350" y="625" text-anchor="middle" font-family="Georgia" font-size="34" fill="#8d3154">A bouquet for you 🌹</text>
+</svg>

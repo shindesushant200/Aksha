@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<rect width="800" height="1000" fill="#fff0f4"/>
+<circle cx="130" cy="160" r="75" fill="#e85b86" opacity=".18"/>
+<circle cx="680" cy="780" r="120" fill="#e85b86" opacity=".14"/>
+<text x="400" y="455" text-anchor="middle" font-size="180">🌷</text>
+<text x="400" y="650" text-anchor="middle" font-family="Georgia" font-size="46" fill="#7d4057">A sweet little moment</text>
+<text x="400" y="720" text-anchor="middle" font-family="Arial" font-size="24" fill="#9b6c7c">Replace this sample with your photo</text>
+<text x="400" y="900" text-anchor="middle" font-size="60">♡</text>
+</svg>
