@@ -41,12 +41,12 @@ document.getElementById("cakeNext").addEventListener("click", () => showScreen("
 /* Memories — replace these images/captions with your own ["assets/images/memory-1.svg", "Happy Birthday 💗"]*/
 const memories = [
   
-  ["assets/images/Updated1.jpeg", "Happy Birthday, Aksha 💗"],
-  ["assets/images/Updated22.jpeg", "You look absolutely stunning ✨"],
-["assets/images/Updated33.jpeg", "Forever my favorite person ❤️"],
-["assets/images/Updated4.jpeg", "The prettiest girl in every place 🌹"],
-["assets/images/Updated5.jpeg", "You shine like sunshine ☀️"],
-["assets/images/Updated6.jpeg", "Your smile makes my world brighter 🌸"]
+  ["assets/Images/Updated1.jpeg", "Happy Birthday, Aksha 💗"],
+  ["assets/Images/Updated22.jpeg", "You look absolutely stunning ✨"],
+["assets/Images/Updated33.jpeg", "Forever my favorite person ❤️"],
+["assets/Images/Updated4.jpeg", "The prettiest girl in every place 🌹"],
+["assets/Images/Updated5.jpeg", "You shine like sunshine ☀️"],
+["assets/Images/Updated6.jpeg", "Your smile makes my world brighter 🌸"]
 ];
 let memoryIndex = 0;
 
